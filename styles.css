@@ -54,6 +54,7 @@
     border: 1.8px solid rgb(253,203,40);
     letter-spacing: 3px;
     text-transform: uppercase;
+    box-shadow: none;
 }
 
 #content #a:hover{
@@ -71,5 +72,47 @@
     to{
         opacity: 1;
         transform: translateY(0);
+    }
+}
+
+@media screen and (max-width: 470px){
+    #content img{
+        width: calc(100vw - 25px);
+    }
+
+    #content img:hover{
+        width: calc(100vw - 15px);
+    }
+
+    #content #a{
+        width: calc(100vw - 100px);
+    }
+}
+
+@media screen and (max-width: 330px){
+    #content img{
+        width: calc(100vw - 15px);
+    }
+
+    #content img:hover{
+        width: calc(100vw - 7px);
+    }
+
+    #content #a{
+        width: calc(100vw - 100px);
+    }
+}
+
+@media screen and (max-width: 260px){
+    #content img{
+        width: calc(100vw - 8px);
+    }
+
+    #content img:hover{
+        width: calc(100vw - 4px);
+    }
+
+    #content #a{
+        width: calc(100vw - 80px);
     }
 }
