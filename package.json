@@ -1,12 +1,12 @@
 {
-  "name": "http-video-stream",
+  "name": "HTML-CSS-Projects-Download-Game-Page",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "author": "",
+  "author": "AntonioGomes42",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
